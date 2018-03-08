@@ -8,6 +8,7 @@ import { FooterComponent } from './footer/footer.component';
 import { MainComponent } from './main/main.component';
 import { UserDetailComponent } from './user-detail/user-detail.component';
 import { AppRoutingModule } from './/app-routing.module';
+import { HomeComponent } from './home/home.component';
 
 
 @NgModule({
@@ -16,7 +17,8 @@ import { AppRoutingModule } from './/app-routing.module';
     HeaderComponent,
     FooterComponent,
     MainComponent,
-    UserDetailComponent
+    UserDetailComponent,
+    HomeComponent
   ],
   imports: [
     BrowserModule,
